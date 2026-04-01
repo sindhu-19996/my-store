@@ -6,7 +6,7 @@ import products from "../../data/products.json";
 import Navbar from "../../components/Navbar";
 import ProductCard from "../../components/ProductCard";
 
-
+export const dynamic = "force-dynamic";
 
 export default function Products() {
   const searchParams = useSearchParams();
